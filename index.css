@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+.page {
+	font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.header {
+	border-bottom: 1px solid #e5e5e5;
+	margin: 0 auto;
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+.header__container {
+	display: flex;
+	margin: 0 auto;
+	width: 1200px;
+}
+.header__logo {
+	width: 113px;
+	height: 39px;
+	margin: 0 244px 0 0;
+}
+.nav-bar {
+	display: flex;
+	align-items: center;
+}
+.nav-bar__ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 115px;
+	list-style: none;
+}
+.nav-bar__li {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+}
+.main {
+}
+.about {
+	background-image: url(./backgroundUrus.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.about__title {
+	max-width: 855px;
+	margin: 105px 0 40px 0;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 88px;
+	letter-spacing: 0em;
+}
+.about__subtitle {
+	margin: 0;
+	max-width: 502px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+}
+.about__button {
+	width: 334px;
+	padding: 20px 0;
+	height: 64px;
+	margin: 40px 0 154px 0;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+.our-products {
+}
+
+.our-products__title {
+	margin: 100px 0 40px 0;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 40px;
+}
+.card {
+	width: 384px;
+	height: 473px;
+}
+.card__image {
+	object-fit: contain;
+	object-position: center;
+	width: 384px;
+	height: 246px;
+}
+.card__name {
+	margin: 15px 0 17px 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.card__info {
+	display: grid;
+	margin: 0 0 13px;
+	grid-template-columns: repeat(3, 110px);
+	grid-template-rows: repeat(auto, 92px);
+	justify-items: center;
+	justify-content: center;
+}
+.card__info__image {
+}
+.card__info__caption {
+	width: 110px;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.card__info__caption_weight_bold {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.card__button {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	padding: 15px 0;
+	width: 384px;
+	height: 54px;
+	background: black;
+	color: white;
+}
+.contuct-us {
+	position: relative;
+}
+.contuct-us_background {
+	z-index: -1;
+	right: 190px;
+	bottom: 0;
+	position: absolute;
+	width: 969px;
+	height: 506px;
+	background-image: url(./rolls.png);
+	background-repeat: no-repeat;
+}
+.contuct-us__title {
+	margin: 100px 0 20px 0;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: 0em;
+}
+.contuct-us__subtitle {
+	margin: 0 0 60px 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.contuct-us__button {
+	margin: 0 0 121px 0;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	padding: 15px 0;
+	width: 344px;
+	height: 64px;
+	background: black;
+	color: white;
+}
+.contuct-us__input {
+	box-sizing: border-box;
+	margin: 0 0 15px 0;
+	padding-left: 18px;
+	width: 344px;
+	height: 64px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+}
+.footer {
+	display: flex;
+	border-top: 1px solid #e5e5e5;
+	margin: 0 auto;
+	height: 90px;
+	align-items: center;
+}
+.footer__container {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+}
+.footer__copyright {
+	display: inline-block;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: right;
+}
